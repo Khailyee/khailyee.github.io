@@ -46,21 +46,4 @@ $(document).ready(function () {
     $(".page-wrapper").removeClass("wrapper-active");
   }
   });
-
-  var ml = 0
-  $("#carousel-prev").click(function () {
-    ml = parseInt($('#carousel').css('margin-left').replace("px", ""));
-    if (ml == 0) {
-      return false;
-    }
-    $('#carousel').css('margin-left', (ml + 960).toString() + "px"); 
-  });
-
-  $("#carousel-next").click(function () {
-    ml = parseInt($('#carousel').css('margin-left').replace("px", ""));
-    if (ml == -3840) {
-      return false;
-    }
-    $('#carousel').css('margin-left', (ml - 960).toString() + "px");
-  });
 });
