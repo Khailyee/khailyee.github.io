@@ -347,6 +347,19 @@ body {
     color: whitesmoke;
 }
 
+#damn{
+    position: absolute;
+    color: whitesmoke;
+    bottom: 250px;
+    right: 250px;
+    text-align: center;
+}
+
+#head{
+    font-size: 78px;
+    font-weight: 800;
+    color: whitesmoke;
+}
 #about-container {
     position: fixed;
     width: 100%;
